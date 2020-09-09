@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+    }
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+/* inizio header */
+
+header {
+    background-image: url(https://www.ehabitat.it/wp-content/uploads/2017/10/bosco.jpg);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 10px solid white;
+    padding: 50px 0;
+    margin: 50px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* fine header */
+/* inizio menù navigazione */
+
+nav {
+    background-color: brown;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav li:hover {
+    background-color: green;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    font-family: monospace;
+    font-style: normal;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+nav a.dropdown-bar::after {
+    content: '↓';
+    margin-left: 5px;
+}
+
+.menu {
+    background-color: brown;
+}
+/* fine menù navigazione */
+
+
+.container {
+
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+aside {
+    background-color: pink;
+    float: left;
+    width: 20%;
+    height: 400px;
+
+}
+
+main {
+    background-color: white;
+    float: left;
+    width: calc(60% - 20px;);
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    height: 200px;
+    background-color: white;
+}
